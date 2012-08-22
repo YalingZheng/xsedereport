@@ -1,0 +1,9 @@
+/home/yzheng/xsedereport/shellscript4xsedeuserCPUusage.sh
+
+by using crontab -e, added the following cron tab
+0 7 * * 1 /home/yzheng/xsedereport/shellscript4xsedeuserCPUusage.sh
+
+The following command will show all of your cron items
+crontab -l
+
+send weekly report of last 30 days valid user project CPU usage, valid user CPU usage, valid project CPU usage as well as an attached csv file to Tanya, Mats, Chander, and Yaling
