@@ -1,0 +1,33 @@
+Users,Projects,Cpu Time Usage (hours)
+rynge,TG-AST110053,111398
+rynge,OSG-Staff,675
+pwolberg,UMich,379
+tmittal,JohnsHopkins,146
+bxin,LSST,38
+rynge,TG-STA120004,2
+tanya,OSG-Staff,0
+mslyz,Pheno,0
+shoeche,Pheno,0
+oweidner,TG-MCB090174,0
+,,
+Users,,Cpu Time Usage (hours)
+rynge,,112075
+donkri,,4663
+pwolberg,,379
+tmittal,,146
+bxin,,38
+oweidner,,22
+ajaib,,0
+tanya,,0
+mslyz,,0
+shoeche,,0
+,,
+,Projects,Cpu Time Usage (hours)
+,TG-AST110053,111398
+,OSG-Staff,675
+,UMich,379
+,JohnsHopkins,146
+,LSST,38
+,TG-STA120004,2
+,Pheno,0
+,TG-MCB090174,0
