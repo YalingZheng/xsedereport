@@ -1,6 +1,9 @@
 #!/bin/bash
 
 function main {
+  export PATH=$PATH:/opt/gold/default/bin
+  export PATH=$PATH:/usr/bin
+  echo $PATH
   local xsedeusers="("
   linecounter=0
   for item in `glsuser | cut -d" " -f1`
@@ -34,7 +37,7 @@ function main {
 
   echo $xsedeusers
   echo $xsedeprojects
-  python GetxsedeuserCPUusage.py -u $xsedeusers -p $xsedeprojects
+  python /home/yzheng/GetxsedeuserCPUusage.py -u $xsedeusers -p $xsedeprojects
 }
 
 main
